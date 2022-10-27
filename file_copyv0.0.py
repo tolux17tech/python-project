@@ -2,7 +2,8 @@
 from pydoc import describe
 import sys, shutil, os, time
 
-#ASSIGNING COMMAND LINE VARIABLES
+
+#USAGE:    python3 file_copy.py /Users/dc/Mike_Python/python-scripts /Users/dc/Mike_Python/backup/aws_jul
 
 #Varible declaration
 SOURCE=sys.argv[1]
