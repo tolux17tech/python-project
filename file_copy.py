@@ -10,9 +10,7 @@ DESTINATION=sys.argv[2]
 time_string=time.localtime()
 time_string=time.localtime()
 TS=time.strftime("%d%m%y%M%S", time_string)
-#NEW_SRC=SOURCE+str(TS)
-#NEW_DEST=DESTINATION +"/"+ SOURCE +"_"+ TS
-NEW_DEST2=os.path.join(SOURCE,DESTINATION)+ "_"+ TS
+NEW_DEST2=DESTINATION +"_"+ TS
 
 print(NEW_DEST2)
 
