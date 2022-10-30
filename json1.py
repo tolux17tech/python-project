@@ -1,1 +1,1 @@
-I like mike as my teacher
+I like tolu as my teacher

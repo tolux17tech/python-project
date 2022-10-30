@@ -1,0 +1,8 @@
+root - INFO - Starting the code run at 2910224457
+root - INFO - Calling the file copy function
+root - INFO - The file or directory to copy is /Users/dc/Mike_Python/python-scripts
+root - INFO - The backup directory is /Users/dc/Mike_Python/backup/aws_jul
+root - INFO - 
+root - INFO - Creating a backup up of /Users/dc/Mike_Python/python-scripts into /Users/dc/Mike_Python/backup/aws_jul/tolu/directory/2910224457/python-scripts
+root - INFO - Backing up directory
+root - INFO - Ending the code run at 2910224457

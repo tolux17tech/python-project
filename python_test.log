@@ -1,6 +1,6 @@
-root - INFO - Starting the code run at 2810221545
-root - INFO - MacBook-Pro.local
-root - INFO - The hostname is MacBook-Pro.local
-root - INFO - Calling the patchprod function
-root - INFO - This is the patch prod fucntion
-root - INFO - Ending the the code run at 2810221545
+root - INFO - The file or directory to copy is /Users/dc/Mike_Python/python-scripts
+root - INFO - The backup directory is /Users/dci/Mike_Python/backup/aws_jul
+root - INFO - 
+root - INFO - Creating a backup up of /Users/dc/Mike_Python/python-scripts into /Users/dci/Mike_Python/backup/aws_jul/tolu/DIRECTORY/3010225907/python-scripts
+root - INFO - Backing up directory
+root - ERROR - The copy function failed

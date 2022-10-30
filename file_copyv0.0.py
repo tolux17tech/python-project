@@ -9,7 +9,6 @@ import sys, shutil, os, time
 SOURCE=sys.argv[1]
 DESTINATION=sys.argv[2]
 time_string=time.localtime()
-time_string=time.localtime()
 TS=time.strftime("%d%m%y%M%S", time_string)
 NEW_DEST2=DESTINATION +"_"+ TS
 

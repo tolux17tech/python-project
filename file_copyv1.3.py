@@ -10,15 +10,8 @@ import sys, shutil, os, time
 SOURCE=sys.argv[1]
 DESTINATION=sys.argv[2]
 RUNNER=sys.argv[3]
-#BACKUP_TYPE=sys.argv[4]
 time_string=time.localtime()
 TS=time.strftime("%d%m%y%M%S", time_string)
-
-
-
-#DEST_DIR=("%s/%s/%s/%s/%s" %(DESTINATION,RUNNER,BACKUP_TYPE,TS,os.path.basename(SOURCE)))
-#FILE_DEST=("%s/%s/%s/%s" %(DESTINATION,RUNNER,BACKUP_TYPE,TS))
-
 
 def backup():
     
