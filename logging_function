@@ -1,0 +1,39 @@
+   
+def create_log(x, filename='application.log', filelogger="tolux.tech"):
+    #Creating a new logger
+    logger = logging.getLogger(filelogger)
+    logger.setLevel(logging.INFO)
+
+    #Creating a log file
+    log_file = logging.FileHandler(filename)
+    log_file.setLevel(logging.INFO)
+
+    #Create formatter
+    formatter = logging.Formatter('%(name)s - %(levelname)s - %(message)s')
+    log_file.setFormatter(formatter)
+
+    #add the file handler
+    logger.addHandler(log_file)
+
+    try:
+        return logger.info(x)
+    except Exception as e:
+        print(f'Error Occured: {e}')
+    finally:
+        log_file.close()
+        logger.removeHandler(log_file)
+
+#Creating time strimg required for logger
+timestring=time.localtime() 
+time4us=time.strftime("%d%m%y%M%S", timestring) 
+
+#Called loging function with default arguments
+create_log("Starting code run at %s" %(time4us))
+
+#Sleeping to test time string
+time.sleep(2)
+
+
+timestring=time.localtime() 
+time4us=time.strftime("%d%m%y%M%S", timestring) 
+create_log("Ending code run at %s" %(time4us))
