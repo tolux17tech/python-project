@@ -1,4 +1,11 @@
-   
+#!/usr/bin/python
+#Purpose:This is used to create a log file
+#Website: Toluxtrucks.com
+#Created Date: Thu Jan 19 03:09:32 EST 2023
+#Author: Tolulope Gbadamosi
+
+import time,logging
+
 def create_log(x, filename='application.log', filelogger="tolux.tech"):
     #Creating a new logger
     logger = logging.getLogger(filelogger)
@@ -23,16 +30,12 @@ def create_log(x, filename='application.log', filelogger="tolux.tech"):
         log_file.close()
         logger.removeHandler(log_file)
 
-#Creating time strimg required for logger
+
 timestring=time.localtime() 
 time4us=time.strftime("%d%m%y%M%S", timestring) 
-
-#Called loging function with default arguments
 create_log("Starting code run at %s" %(time4us))
 
-#Sleeping to test time string
 time.sleep(2)
-
 
 timestring=time.localtime() 
 time4us=time.strftime("%d%m%y%M%S", timestring) 
